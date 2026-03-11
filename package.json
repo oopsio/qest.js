@@ -1,0 +1,21 @@
+{
+  "name": "qest",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node framework/dev.js",
+    "build": "node framework/build.js",
+    "start": "node framework/server.js",
+    "format": "prettier --write \"**/*.{js,jsx,css,json}\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "preact": "^10.19.0",
+    "preact-render-to-string": "^6.4.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "prettier": "^3.2.5",
+    "vitest": "^1.4.0"
+  }
+}
